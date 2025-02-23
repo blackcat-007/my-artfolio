@@ -1,0 +1,292 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:fantacy ;
+    font-style:copperplate;
+
+}
+#navbar{
+    background-color:#FFE5EC;
+    display:flex;
+    min-width:100%;
+    min-height: 90px;
+    justify-content: center;
+    z-index: 4;
+
+    font-family:fantacy ;
+    font-style: copperplate;
+
+
+}
+#name{
+    width: 50%;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    font-size: 17px;
+    text-decoration: none;
+    color:#605463;
+
+
+}
+p{
+    width: 50%;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    font-size: 17px;
+}
+#section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+#explore{
+    min-height:70%;
+    min-width:30%;
+    border-top: 1px black solid;
+    border-radius: 2%;
+    font-family:fantacy ;
+   font-style: Copperplate;
+   font-size: 15px;
+   text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+    color:#605463;
+    
+
+}
+#about{
+    height:70%;
+    width:30%;
+    font-size:15px ;
+    font-family:fantacy ;
+   font-style: copperplate;
+    border-top: 1px black solid;
+    text-decoration: none;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+    color:#605463;
+   
+
+}
+#about:hover {
+    border-top: 3px #FB6F92 solid;
+    color:#FB6F92;
+    border-radius:2%;
+}
+#explore:hover {
+    border-top: 3px #FB6F92 solid;
+    color:#FB6F92;
+    border-radius:2%;
+}
+#section2{
+    height:600px;
+    width:1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    
+    height:90%;
+    width: 95%;
+    background-color:#FFE5EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bwscene{
+    background-image: url("/static/nature.jpg");
+    background-size: cover;
+    height:77%;
+    width:30%;
+    opacity:1;
+    animation:drop1 1s ease-out 0s 1;
+
+}
+@keyframes drop1{
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100%{
+        transfrom:translateY(0%);
+        opacity: 1;
+    }
+}
+
+.samurai{
+    background-image: url("/static/tree.jpg");
+    background-size: cover;
+    height:77%;
+    width:30%;
+    animation:drop2 1.5s ease-out 0s 1;
+
+}
+@keyframes drop2{
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100%{
+        transfrom:translateY(0%);
+        opacity: 1;
+    }
+}
+.model{
+    background-image: url("/static/light.jpg");
+    background-size: cover;
+    height:77%;
+    width:30%;
+    animation:drop3 2s ease-out 0s 1;
+
+}
+@keyframes drop3{
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100%{
+        transfrom:translateY(0%);
+        opacity: 1;
+    }
+}
+
+
+#artwork2{
+    display: flex;
+}
+
+.background{
+   
+    height: 40rem;
+    width:45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#art{
+    background-image: url("/static/bridge.jpg");
+    background-size: cover;
+    height:38rem;
+    width:29rem;
+    z-index: 3;
+
+}
+#captionbg{
+    height:220px;
+    width:680px ;
+    background-color: #FFE5EC;
+    margin-left: -260px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+
+    
+   
+
+}
+#caption{
+   
+   margin-left: -85px;
+   font-size: larger;
+}
+h2{
+    font-weight: 100;
+}
+#text{
+    font-weight: 100;
+    color:#e36397;
+
+}
+.seepost{
+    text-decoration: underline;
+    font-weight: 100;
+    font-size: smaller;
+    color:#5d4e60;
+}
+#potrait{
+    margin-top: 80px;
+}
+.background2{
+    height:590px;
+    width: 100%;
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#captionbg2{
+    height:300px;
+    width:490px ;
+    background-color: #bc8da7;
+    margin-left: -320px;
+    padding-left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#text2{
+    color:#eff2ef;
+    font-weight: 100;
+
+
+
+}
+
+#art2{
+    height:90%;
+    width:40% ;
+    margin-left: 0px;
+    margin-right: -500px;
+    background-color: #cbb1bf;
+    background-image: url("/static/DURGA.jpg");
+    background-size:cover;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width:100%;
+    background-color: aliceblue;
+    margin-top: 110px;
+
+}
+#copyright{
+    
+    
+    width:270px;
+    height: 20px;
+    margin-right: 120px;
+    color: #605463;
+
+}
+a{
+    color:#605463;
+}
+#icons{
+    color: #605463;
+    width:200px;
+    margin-left:630px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+}

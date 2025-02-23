@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/aboutpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Explore</title>
+</head>
+<body>
+   
+<header>
+    <div id="navbar">
+        <a class="name" href="{% url 'index' %}">SHUBHODEEP MUKHERJEE</a><br>
+        <p>BLACKCAT</p>
+        <div id="section">
+        <a id="explore" href="{% url 'explore' %}">Explore</a>
+        <div id="about">About</div>
+        </div>
+    </div>
+</header>
+    <main>
+      <div class="section1"><div class="nested"></div><div class="aboutme"><h1>About Me</h1><br>     Passionate about the art of visual storytelling, I find boundless inspiration in cinematography, video editing, and sketching. Each medium offers a unique canvas for my creativity to flourish. Cinematography allows me to capture moments in time, weaving narratives through the lens. Video editing is where I meticulously shape raw footage into cohesive stories, mastering the rhythm and flow of visual communication. Sketching, on the other hand, grants me the freedom to translate thoughts and emotions into vivid imagery, honing my ability to express ideas visually.<br> <br>
+        My academic journey has been enriched by a foundation built on values and excellence. I completed my secondary and high school education at Ramkrishna Mission, where I imbibed principles of integrity and dedication. Currently, I am pursuing my Bachelor's in Electronics and Communication Engineering at Narula Institute of Technology. Here, I am nurturing my passion for technology alongside my creative pursuits, striving to merge innovation with artistic expression.
+    </div></div>
+    <br> <br>
+    <div class="section1">
+        <a class="instagram" href="https://www.instagram.com/bong_art_per_byte?igsh=MWNvZGFtN3psb3hubw==">Instagram</a>
+    <div class="formpage"> <h2>Get In Touch</h2><br><p id="getintouch">For business inquiries and collaborations, please contact me below and leave a link to your website or portfolio. I am looking forward to hearing from you!</p> 
+    <form class="form">
+        {%csrf_token%}
+
+        <input id="name"type="text"placeholder="enter your name"></inputtype><br>
+        <br>
+        <input id="email" type="text"placeholder="enter your EMAIL address"></inputtype><br>
+        <br>
+        <textarea id="msg" id="msg" name="msg" placeholder="message.." ></textarea>
+        <br>
+        <br>
+        <input id="submitbtn"type="submit"value="submit"></inputtype>
+    </form></div>  
+</div>
+</main>
+<footer>
+    <div id="copyright">
+   &copy;2024 SHUBHODEEP MUKHERJEE
+
+</div>
+<div id="icons">
+    <a href="https://www.instagram.com/bong_art_per_byte?igsh=MWNvZGFtN3psb3hubw=="><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/shubhodeep-mukherjee-77487b243?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://youtube.com/@sdmproduction07?si=VGk-rgcevLYzZBw2"><i class="fa-brands fa-youtube"></i></a>
+    <a href="https://x.com/Shubhodeep_0101?t=WBJv5aEogEt64L1jhgOL7g&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+
+</div>
+
+</footer>
+</body>
+</html>
